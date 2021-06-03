@@ -1,95 +1,57 @@
-<body class=""><style>
-      
-    * {
-      box-sizing: border-box;
-    }
-    html, body, [data-gjs-type=wrapper] {
-      min-height: 100%;
-    }
-    body {
-      margin: 0;
-      height: 100%;
-      background-color: #fff
-    }
-    [data-gjs-type=wrapper] {
-      overflow: auto;
-      overflow-x: hidden;
-    }
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>Title</title>
 
-    * ::-webkit-scrollbar-track {
-      background: rgba(0, 0, 0, 0.1)
-    }
+  <link rel="stylesheet" href="style.css"/>
+  <style></style>
 
-    * ::-webkit-scrollbar-thumb {
-      background: rgba(255, 255, 255, 0.2)
-    }
+  <script src="script.js"></script>
+  <script></script>
+</head>
 
-    * ::-webkit-scrollbar {
-      width: 10px
-    }
-  
+<body>
 
-      .gjs-dashed *[data-highlightable] {
-        outline: 1px dashed rgba(170,170,170,0.7);
-        outline-offset: -2px;
-      }
 
-      .gjs-selected {
-        outline: 3px solid #3b97e3 !important;
-        outline-offset: -3px;
-      }
+<div class="panel">
+    <h1 class="welcome">Willkommen auf
+      <br/>
+    </h1>
+    <div class="big-title">
+      <span id="i6i9">iCraftDay.ch</span>
+    </div>
+    <div class="description">Mein zweiter Versuch, eine Webseite zu bauen.
+      <br/>
+    </div>
+  </div>
+  <div id="ia2oj">Zeit, bis wann der Heuschnupfen vorbei sein wird:
+    <br/>
+  </div>
+  <div id="ia6o" class="countdown">
+    <span data-js="countdown" class="countdown-cont"><div class="countdown-block">
+      <div data-js="countdown-day" class="countdown-digit">
+      </div>
+      <div class="countdown-label">days
+      </div>
+      </div><div class="countdown-block">
+      <div data-js="countdown-hour" class="countdown-digit">
+      </div>
+      <div class="countdown-label">hours
+      </div>
+      </div><div class="countdown-block">
+      <div data-js="countdown-minute" class="countdown-digit">
+      </div>
+      <div class="countdown-label">minutes
+      </div>
+      </div><div class="countdown-block">
+      <div data-js="countdown-second" class="countdown-digit">
+      </div>
+      <div class="countdown-label">seconds
+      </div>
+      </div></span>
+    <span data-js="countdown-endtext" class="countdown-endtext"></span>
+  </div>
 
-      .gjs-selected-parent {
-        outline: 2px solid #ffca6f !important
-      }
-
-      .gjs-no-select {
-        user-select: none;
-        -webkit-user-select:none;
-        -moz-user-select: none;
-      }
-
-      .gjs-freezed {
-        opacity: 0.5;
-        pointer-events: none;
-      }
-
-      .gjs-no-pointer {
-        pointer-events: none;
-      }
-
-      .gjs-plh-image {
-        background: #f5f5f5;
-        border: none;
-        height: 100px;
-        width: 100px;
-        display: block;
-        outline: 3px solid #ffca6f;
-        cursor: pointer;
-        outline-offset: -2px
-      }
-
-      .gjs-grabbing {
-        cursor: grabbing;
-        cursor: -webkit-grabbing;
-      }
-
-      .gjs-is__grabbing {
-        overflow-x: hidden;
-      }
-
-      .gjs-is__grabbing,
-      .gjs-is__grabbing * {
-        cursor: grabbing !important;
-      }
-
-      
-      * { box-sizing: border-box; } body {margin: 0;}
-    </style><div data-gjs-type="wrapper" data-highlightable="1" id="ive9" draggable="true" class=""><div data-gjs-type="default" draggable="true" data-highlightable="1" class="panel" id="iq49"><h1 data-gjs-type="text" draggable="true" data-highlightable="1" class="welcome" id="ie9k" contenteditable="false">Willkommen auf<br data-gjs-type="default"></h1><div data-gjs-type="default" draggable="true" data-highlightable="1" class="big-title" id="ikyf"><span data-gjs-type="text" draggable="true" data-highlightable="1" id="i6i9" class="" contenteditable="false">iCraftDay.ch</span></div><div data-gjs-type="text" draggable="true" data-highlightable="1" class="description" id="isqb" contenteditable="false">Mein zweiter Versuch, eine Webseite zu bauen.<br data-gjs-type="default"></div></div><div data-gjs-type="text" draggable="true" data-highlightable="1" id="ia2oj" class="" contenteditable="false">Zeit, bis wann der Heuschnupfen vorbei sein wird:<br data-gjs-type="default"></div><div data-gjs-type="countdown" draggable="true" data-highlightable="1" class="countdown" id="ia6o"><span data-gjs-type="default" draggable="true" data-highlightable="1" data-js="countdown" class="countdown-cont" id="iangg"><div data-gjs-type="default" draggable="true" data-highlightable="1" class="countdown-block" id="io2op"><div data-gjs-type="default" draggable="true" data-highlightable="1" data-js="countdown-day" class="countdown-digit" id="i6p1x">00</div><div data-gjs-type="text" draggable="true" data-highlightable="1" class="countdown-label" id="im57s">days</div></div><div data-gjs-type="default" draggable="true" data-highlightable="1" class="countdown-block" id="i22w2"><div data-gjs-type="default" draggable="true" data-highlightable="1" data-js="countdown-hour" class="countdown-digit" id="i4e2i">00</div><div data-gjs-type="text" draggable="true" data-highlightable="1" class="countdown-label" id="i0x19">hours</div></div><div data-gjs-type="default" draggable="true" data-highlightable="1" class="countdown-block" id="iha67"><div data-gjs-type="default" draggable="true" data-highlightable="1" data-js="countdown-minute" class="countdown-digit" id="imxjh">00</div><div data-gjs-type="text" draggable="true" data-highlightable="1" class="countdown-label" id="i8ieg">minutes</div></div><div data-gjs-type="default" draggable="true" data-highlightable="1" class="countdown-block" id="i68et"><div data-gjs-type="default" draggable="true" data-highlightable="1" data-js="countdown-second" class="countdown-digit" id="imwjc">00</div><div data-gjs-type="text" draggable="true" data-highlightable="1" class="countdown-label" id="i0lhi">seconds</div></div></span><span data-gjs-type="default" draggable="true" data-highlightable="1" data-js="countdown-endtext" class="countdown-endtext" id="inbuh"></span></div></div><div class="gjs-css-rules"><div id="gjs-css-rules"><style>.panel{width:90%;max-width:700px;border-top-left-radius:3px;border-top-right-radius:3px;border-bottom-right-radius:3px;border-bottom-left-radius:3px;padding-top:30px;padding-right:20px;padding-bottom:30px;padding-left:20px;margin-top:150px;margin-right:auto;margin-bottom:0px;margin-left:auto;background-color:#b33535;box-shadow:0 0 3px 10px 0px;color:rgba(255, 255, 255, 0.75);line-height:normal;font-weight:100;}</style><style>.welcome{text-align:center;font-weight:100;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-family:Arial, Helvetica, sans-serif;}</style><style>.logo{width:70px;height:70px;vertical-align:middle;}</style><style>.logo path{pointer-events:none;fill:none;stroke-linecap:round;stroke-width:7px;stroke:rgb(255, 255, 255);}</style><style>.big-title{text-align:center;font-size:3.5rem;margin-top:15px;margin-right:0px;margin-bottom:15px;margin-left:0px;}</style><style>.description{text-align:justify;font-size:1rem;line-height:1.5rem;font-family:Arial, Helvetica, sans-serif;}</style><style>#i6i9{font-family:Courier New, Courier, monospace;}</style><style></style><style>.countdown{text-align:center;font-family:Helvetica, serif;margin:2px 0 0 0;}</style><style>.countdown-block{display:inline-block;margin-top:0px;margin-right:10px;margin-bottom:0px;margin-left:10px;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;}</style><style>.countdown-digit{font-size:5rem;}</style><style>.countdown-endtext{font-size:5rem;}</style><style>.countdown-cont{display:inline-block;}</style><style>#ia2oj{padding:10px;margin:56px 0 0 0;text-align:center;font-family:Arial, Helvetica, sans-serif;font-size:20px;font-weight:700;}</style></div><div id="gjs-css-rules-992"></div><div id="gjs-css-rules-768"></div><div id="gjs-css-rules-480"></div></div><div class="gjs-js-cont"><div data-id="ia6o"><script>
-      setTimeout(function() {
-        var item = document.getElementById('ia6o');
-        if (!item) return;
-        (function(){
-var e=new Date("").getTime(),t=this.querySelector("[data-js=countdown]"),n=this.querySelector("[data-js=countdown-endtext]"),r=this.querySelector("[data-js=countdown-day]"),i=this.querySelector("[data-js=countdown-hour]"),a=this.querySelector("[data-js=countdown-minute]"),o=this.querySelector("[data-js=countdown-second]"),s=this.gjs_countdown_interval;s&&s&&clearInterval(s);var l=function(e,t,n,s){r.innerHTML=e<10?"0"+e:e,i.innerHTML=t<10?"0"+t:t,a.innerHTML=n<10?"0"+n:n,o.innerHTML=s<10?"0"+s:s},u=function(){var r=(new Date).getTime(),i=e-r,a=Math.floor(i/864e5),o=Math.floor(i%864e5/36e5),s=Math.floor(i%36e4/6e4),u=Math.floor(i%6e4/1e3);l(a,o,s,u),i<0&&(clearInterval(c),n.innerHTML="EXPIRED",t.style.display="none",n.style.display="")};if(e){var c=setInterval(u,1e3);this.gjs_countdown_interval=c,n.style.display="none",t.style.display="",u()}else l(0,0,0,0)
-;}.bind(item))({})
-      }, 1);</script></div></div></body>
+</body>
+</html>
